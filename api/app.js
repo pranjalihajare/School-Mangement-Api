@@ -49,4 +49,3 @@ app.get('/listSchools', (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-module.exports = serverless(app);
